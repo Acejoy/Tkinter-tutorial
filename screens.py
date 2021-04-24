@@ -14,13 +14,13 @@ class Screen:
 
         image_name  = None
         if image_num == 1:
-            image_name = 'img1.png'
+            image_name = 'images/img1.png'
 
         elif image_num == 2:
-            image_name = 'img2.png'
+            image_name = 'images/img2.png'
 
         elif image_num == 3:
-            image_name = 'img3.png'
+            image_name = 'images/img3.png'
 
         bg = tk.PhotoImage(file=image_name)
         self.bg_label = tk.Label(self.window, image=bg)
